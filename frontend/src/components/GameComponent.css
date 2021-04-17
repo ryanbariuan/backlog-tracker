@@ -1,0 +1,96 @@
+#AllGamesContainer {
+  background-color: steelblue;
+  width: 73%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 5px 5px 8px black;
+  min-height: 100vh;
+  border: 1px solid white;
+}
+
+#AllGamesContainer h1 {
+  text-align: center;
+  background-color: #141518;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: gamer-font;
+  font-size: 200%;
+  border-style: inset;
+  border-color: rgb(196, 171, 33);
+}
+
+#AllPlatformsContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#AllPlatformsContainer button {
+  font-family: Arial Narrow;
+  width: 16%;
+  margin-top: 5px;
+}
+#AllPlatformsContainer button:hover {
+  color: white;
+  background-color: firebrick;
+}
+
+#DisplayAllGames {
+  margin-top: 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#DisplayAllGames h3 {
+  font-family: gamer-font;
+  font-size: 230%;
+  text-align: center;
+  width: 100%;
+}
+
+#GameBoxDetails {
+  background-color: lightgray;
+  margin-top: 20px;
+  padding: 10px;
+  width: 31%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#GameBoxDetails #GameBoxInfo {
+  /* border: 1px solid black; */
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#GameBoxInfo label {
+  font-family: gamer-font;
+  font-size: 24px;
+  padding: 2px;
+}
+#GameBoxInfo span {
+  font-family: Arial Narrow;
+}
+
+#GameBoxDetails #GameBoxArt {
+  width: 48%;
+}
+#GameBoxDetails #GameBoxArt img {
+  width: 100%;
+}

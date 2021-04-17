@@ -1,0 +1,71 @@
+#MyGamesDisplayBox {
+  background-color: steelblue;
+  width: 73%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 5px 5px 8px black;
+  border: 1px solid white;
+}
+
+#MyGamesDisplayBox h1 {
+  text-align: center;
+  background-color: #141518;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: gamer-font;
+  border-style: inset;
+  border-color: rgb(196, 171, 33);
+}
+
+#ListPlatformBox {
+  margin-top: 15px;
+  list-style: none;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#ListPlatformBox li {
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  width: 23%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#ListPlatformBox li button {
+  padding: 5px;
+  font-family: Arial Narrow;
+  width: 100%;
+}
+
+#ListPlatformBox li button:hover {
+  color: white;
+  background-color: firebrick;
+}
+
+#displayBox {
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#displayBox h3 {
+  font-family: gamer-font;
+  font-size: 230%;
+  text-align: center;
+  width: 100%;
+}

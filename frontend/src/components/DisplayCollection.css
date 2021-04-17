@@ -1,0 +1,168 @@
+#DisplayGamesContainer {
+  background-color: lightgray;
+  margin-top: 20px;
+  padding: 5px;
+  width: 31%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 380px;
+  overflow-y: auto;
+}
+
+#detailsBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+#updateDetailsBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#updateManageBox {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+#detailsBox #info {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 48%;
+  /* align-self: center; */
+}
+
+#detailsBox label {
+  font-family: gamer-font;
+  font-size: 24px;
+  padding: 2px;
+  width: 100%;
+}
+
+#detailsBox span {
+  font-family: Arial Narrow;
+  padding: 2px;
+  width: 100%;
+}
+
+#detailsBoxart {
+  /* border: 1px solid black; */
+  width: 48%;
+  min-height: 270px;
+  /* align-self: center; */
+}
+
+#detailsBoxart img {
+  width: 100%;
+}
+
+#DisplayGamesContainer #manageBox {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#DisplayGamesContainer #manageBox button,
+#DisplayGamesContainer #updateManageBox button {
+  padding: 5px;
+  font-family: arcade-font;
+  width: 40%;
+}
+
+#DisplayGamesContainer #manageBox #mbUpdate:hover,
+#DisplayGamesContainer #updateManageBox #mbUpdate:hover {
+  color: white;
+  background-color: green;
+}
+
+#DisplayGamesContainer #manageBox #mbDelete:hover,
+#DisplayGamesContainer #manageBox #mbCancel:hover,
+#DisplayGamesContainer #updateManageBox #mbDelete:hover,
+#DisplayGamesContainer #updateManageBox #mbCancel:hover {
+  color: white;
+  background-color: firebrick;
+}
+
+#manageNotesContainer {
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#manageNotesContainer button {
+  padding: 5px;
+  font-family: arcade-font;
+}
+
+#manageNotesContainer button:hover {
+  color: white;
+  background-color: green;
+}
+
+#DisplayGamesContainer .displayProgressNotesForm {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 200px;
+  font-family: Arial Narrow;
+  text-align: center;
+}
+
+#DisplayGamesContainer .displayProgressNotesForm .displayNotes {
+  margin-top: 5px;
+  padding: 5px;
+}
+
+#DisplayGamesContainer .displayProgressNotesForm .displayNotes h4 {
+  font-family: gamer-font;
+  font-size: 2.5vh;
+}
+
+#DisplayGamesContainer .displayProgressNotesForm .displayNotes ol li {
+  list-style-position: inside;
+  border: 1px solid firebrick;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-family: Arial Narrow;
+  font-size: 14px;
+  padding: 5px;
+  background-color: whitesmoke;
+}
+
+#DisplayGamesContainer .displayProgressNotesForm .displayNotes ol li span {
+  padding: 1px;
+}
+
+#DisplayGamesContainer .displayProgressNotesForm .displayNotes ol li button {
+  margin-top: 3px;
+  text-align: center;
+  padding: 1px;
+}
+
+.displayProgressNotesForm button {
+  padding: 5px;
+}
+
+.displayProgressNotesForm textarea {
+  width: 100%;
+  height: 40px;
+  resize: none;
+}

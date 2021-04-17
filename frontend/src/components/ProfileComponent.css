@@ -1,0 +1,261 @@
+#profileContainer {
+  background-color: steelblue;
+  width: 73%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 5px 5px 8px black;
+  border: 1px solid white;
+}
+
+#profileContentBox {
+  padding: 5px;
+}
+
+#profileHeaderTop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#profileHeaderTop h1 {
+  text-align: center;
+  color: rgb(196, 171, 33);
+  padding: 15px;
+  font-family: arcade-font;
+  font-size: 200%;
+  width: 60%;
+  background-color: #222831;
+  border-radius: 50px 0 50px 0;
+  /*border: 1px solid black;*/
+}
+
+#recentlyAdded {
+  padding: 5px;
+}
+
+#recentlyAdded div {
+  margin: auto;
+}
+#recentlyAdded div img {
+  margin-top: 5px;
+  width: 15%;
+}
+
+#recentlyAdded h4 {
+  font-family: gamer-font;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+#recentlyAdded h4 span {
+  font-family: Arial Narrow;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+#recentlyAdded h3,
+#recentlyAdded p {
+  text-align: center;
+}
+
+#recentlyAdded h3 {
+  text-align: center;
+  background-color: #141518;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: gamer-font;
+  font-size: 200%;
+  border-style: inset;
+  border-color: rgb(196, 171, 33);
+}
+
+#recentlyAdded p {
+  margin-top: 10px;
+  font-family: Arial Narrow;
+  font-style: italic;
+  color: firebrick;
+}
+
+#recentlyAdded fieldset,
+#AddGamesFormBox fieldset,
+#AddPlatformBox fieldset {
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: lightgray;
+  border: none;
+  padding: 10px;
+  box-shadow: 0px 5px 8px black;
+}
+
+#recentlyAdded fieldset legend,
+#AddGamesFormBox fieldset legend,
+#AddPlatformBox fieldset legend {
+  font-family: arcade-font;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-style: inset;
+  border-color: rgb(196, 171, 33);
+  border-radius: 25px;
+}
+
+#recentlyAdded fieldset label {
+  font-family: gamer-font;
+  font-size: 28px;
+}
+
+#recentlyAdded fieldset span {
+  font-family: Arial Narrow;
+  font-size: 20px;
+}
+
+#profileHeaderTop img {
+  padding: 10px;
+  width: 15%;
+  /* border: 1px solid black; */
+}
+
+#statusBox {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+#statusBox ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#statusBox ul li {
+  padding: 5px;
+  font-family: gamer-font;
+  font-size: 28px;
+}
+
+#statusBox ul li .spanBacklog a {
+  color: firebrick;
+  text-decoration: none;
+}
+#statusBox ul li .spanFinished a {
+  color: orange;
+  text-decoration: none;
+}
+#statusBox ul li .spanCompleted a {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+#profileFormBox {
+  /* border: 1px solid black; */
+  margin-top: 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#profileFormBox h1 {
+  text-align: center;
+  background-color: #141518;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: gamer-font;
+  border-style: inset;
+  border-color: rgb(196, 171, 33);
+  width: 100%;
+}
+
+#profileFormBox #ShowPlatformBox,
+#profileFormBox #ShowAddGamesFormBox {
+  /* border: 1px solid black; */
+  width: 30%;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+#ShowPlatformBox button,
+#ShowAddGamesFormBox button,
+.actionBox button {
+  padding: 5px;
+  font-family: arcade-font;
+  color: firebrick;
+  background-color: lightgray;
+}
+
+#ShowPlatformBox button:hover,
+#ShowAddGamesFormBox button:hover,
+.actionBox button:hover {
+  color: green;
+}
+
+#profileFormBox #AddPlatformBox,
+#profileFormBox #AddGamesFormBox {
+  width: 80%;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+#AddPlatformBox h3,
+#AddGamesFormBox h3 {
+  text-align: center;
+  color: black;
+  padding: 10px;
+  font-family: gamer-font;
+  font-size: 200%;
+}
+
+#AddPlatformBox fieldset input {
+  min-width: 280px;
+  padding: 5px;
+  font-family: Arial Narrow;
+}
+
+#AddGamesFormBox fieldset {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#AddGamesFormBox fieldset label {
+  font-family: gamer-font;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+#AddGamesFormBox fieldset input,
+#AddGamesFormBox fieldset select {
+  padding: 5px;
+  font-family: Arial Narrow;
+}
+
+.actionBox {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 70%;
+  /* border: 1px solid black; */
+}
+
+.actionBox button {
+  width: 30%;
+}

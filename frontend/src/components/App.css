@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222831;
+}
+
+main {
+  /*border: 5px solid black;*/
+  margin-top: 8.2%;
+}
