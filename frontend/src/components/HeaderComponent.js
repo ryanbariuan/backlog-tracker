@@ -9,13 +9,16 @@ class HeaderComponent extends React.Component {
     return(
       <header>
         <div id='logoContainer'>
-          <h1>
-            <span id="blue">Game</span>{' '} 
-            <span id="yellow">Backlog</span>{' '} 
-            <span id="red">Tracker</span>
-          </h1>
+          <Link to = "/about">
+            <h2>
+              <span id="blue">Game</span>{' '} 
+              <span id="yellow">Backlog</span>{' '} 
+              <span id="red">Tracker</span>
+            </h2>
+          </Link>
         </div>
-        <nav id='navContainer'>
+        <input type ="checkbox" id = "navToggle" className = "navToggle"/>
+        <nav>
           <ul>
             <li><Link to ="/about">About</Link></li>
             {this.props.userLogged ? (
@@ -39,6 +42,9 @@ class HeaderComponent extends React.Component {
            
           </ul>
         </nav>
+        <label htmlFor="navToggle" className="navToggleIcon">
+          <span></span>
+        </label>
       </header>
     );
   }
